@@ -127,7 +127,112 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Animation.hpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\alert.png" />
+    <Image Include="img\attack_down.png" />
+    <Image Include="img\attack_left.png" />
+    <Image Include="img\attack_right.png" />
+    <Image Include="img\attack_up.png" />
+    <Image Include="img\avatar_paimon.png" />
+    <Image Include="img\avatar_warrior.png" />
+    <Image Include="img\background.png" />
+    <Image Include="img\bee_left_0.png" />
+    <Image Include="img\bee_left_1.png" />
+    <Image Include="img\bee_left_2.png" />
+    <Image Include="img\bee_left_3.png" />
+    <Image Include="img\bee_right_0.png" />
+    <Image Include="img\bee_right_1.png" />
+    <Image Include="img\bee_right_2.png" />
+    <Image Include="img\bee_right_3.png" />
+    <Image Include="img\boar_left_0.png" />
+    <Image Include="img\boar_left_1.png" />
+    <Image Include="img\boar_left_2.png" />
+    <Image Include="img\boar_left_3.png" />
+    <Image Include="img\boar_left_4.png" />
+    <Image Include="img\boar_left_5.png" />
+    <Image Include="img\boar_right_0.png" />
+    <Image Include="img\boar_right_1.png" />
+    <Image Include="img\boar_right_2.png" />
+    <Image Include="img\boar_right_3.png" />
+    <Image Include="img\boar_right_4.png" />
+    <Image Include="img\boar_right_5.png" />
+    <Image Include="img\F_btn_pushed.png" />
+    <Image Include="img\F_btn_released.png" />
+    <Image Include="img\menu.png" />
+    <Image Include="img\paimon_left_0.png" />
+    <Image Include="img\paimon_left_1.png" />
+    <Image Include="img\paimon_left_2.png" />
+    <Image Include="img\paimon_left_3.png" />
+    <Image Include="img\paimon_left_4.png" />
+    <Image Include="img\paimon_left_5.png" />
+    <Image Include="img\paimon_right_0.png" />
+    <Image Include="img\paimon_right_1.png" />
+    <Image Include="img\paimon_right_2.png" />
+    <Image Include="img\paimon_right_3.png" />
+    <Image Include="img\paimon_right_4.png" />
+    <Image Include="img\paimon_right_5.png" />
+    <Image Include="img\shadow_enemy.png" />
+    <Image Include="img\shadow_player.png" />
+    <Image Include="img\snail_left_0.png" />
+    <Image Include="img\snail_left_1.png" />
+    <Image Include="img\snail_left_2.png" />
+    <Image Include="img\snail_left_3.png" />
+    <Image Include="img\snail_left_4.png" />
+    <Image Include="img\snail_left_5.png" />
+    <Image Include="img\snail_left_6.png" />
+    <Image Include="img\snail_left_7.png" />
+    <Image Include="img\snail_right_0.png" />
+    <Image Include="img\snail_right_1.png" />
+    <Image Include="img\snail_right_2.png" />
+    <Image Include="img\snail_right_3.png" />
+    <Image Include="img\snail_right_4.png" />
+    <Image Include="img\snail_right_5.png" />
+    <Image Include="img\snail_right_6.png" />
+    <Image Include="img\snail_right_7.png" />
+    <Image Include="img\ui_quit_hovered.png" />
+    <Image Include="img\ui_quit_idle.png" />
+    <Image Include="img\ui_quit_pushed.png" />
+    <Image Include="img\ui_start_hovered.png" />
+    <Image Include="img\ui_start_idle.png" />
+    <Image Include="img\ui_start_pushed.png" />
+    <Image Include="img\warrior_idle_left_0.png" />
+    <Image Include="img\warrior_idle_left_1.png" />
+    <Image Include="img\warrior_idle_left_2.png" />
+    <Image Include="img\warrior_idle_left_3.png" />
+    <Image Include="img\warrior_idle_right_0.png" />
+    <Image Include="img\warrior_idle_right_1.png" />
+    <Image Include="img\warrior_idle_right_2.png" />
+    <Image Include="img\warrior_idle_right_3.png" />
+    <Image Include="img\warrior_walk_left_0.png" />
+    <Image Include="img\warrior_walk_left_1.png" />
+    <Image Include="img\warrior_walk_left_2.png" />
+    <Image Include="img\warrior_walk_left_3.png" />
+    <Image Include="img\warrior_walk_left_4.png" />
+    <Image Include="img\warrior_walk_left_5.png" />
+    <Image Include="img\warrior_walk_left_6.png" />
+    <Image Include="img\warrior_walk_left_7.png" />
+    <Image Include="img\warrior_walk_right_0.png" />
+    <Image Include="img\warrior_walk_right_1.png" />
+    <Image Include="img\warrior_walk_right_2.png" />
+    <Image Include="img\warrior_walk_right_3.png" />
+    <Image Include="img\warrior_walk_right_4.png" />
+    <Image Include="img\warrior_walk_right_5.png" />
+    <Image Include="img\warrior_walk_right_6.png" />
+    <Image Include="img\warrior_walk_right_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="mus\bgm.mp3" />
+    <Media Include="mus\hit.wav" />
+    <Media Include="mus\hurt.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

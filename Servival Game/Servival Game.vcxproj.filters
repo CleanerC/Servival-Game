@@ -13,10 +13,313 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\music">
+      <UniqueIdentifier>{72700c68-e125-44cc-8499-b1f3695dff86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\image">
+      <UniqueIdentifier>{9357819b-434b-4865-8ec9-990ab1dd9037}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Animation.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\alert.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\attack_down.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\attack_left.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\attack_right.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\attack_up.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\avatar_paimon.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\avatar_warrior.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\background.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_left_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_left_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_left_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_left_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_right_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_right_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_right_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\bee_right_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_left_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_left_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_left_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_left_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_left_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_left_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_right_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_right_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_right_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_right_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_right_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\boar_right_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\F_btn_pushed.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\F_btn_released.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\menu.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_left_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_left_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_left_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_left_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_left_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_left_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_right_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_right_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_right_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_right_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_right_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\paimon_right_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\shadow_enemy.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\shadow_player.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_6.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_left_7.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_6.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\snail_right_7.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\ui_quit_hovered.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\ui_quit_idle.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\ui_quit_pushed.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\ui_start_hovered.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\ui_start_idle.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\ui_start_pushed.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_left_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_left_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_left_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_left_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_right_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_right_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_right_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_idle_right_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_6.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_left_7.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_0.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_1.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_3.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_4.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_5.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_6.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="img\warrior_walk_right_7.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="mus\bgm.mp3">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+    <Media Include="mus\hit.wav">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+    <Media Include="mus\hurt.wav">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
